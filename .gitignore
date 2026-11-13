@@ -4,10 +4,7 @@ out
 *.tsbuildinfo
 .env*
 .openai/*.local.*
+.netlify
 
 dist
-.wrangler
-.vinext
-.sites-runtime
-.dev.vars*
 outputs

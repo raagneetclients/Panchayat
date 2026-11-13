@@ -11,7 +11,7 @@
 - [ ] Approve media rights and CM photo placement; retain credits and source dates.
 - [ ] Institutional approval for commercial advertising; qualification rules, pricing, placement duration and contracts.
 - [ ] Approve privacy controller/contact, retention/deletion process, security and operational ownership before real bid data collection.
-- [ ] Verify reviewer allowlist; remove test records; keep owner-private until authorized to change audience.
+- [ ] Verify the Netlify Identity reviewer allowlist (`ADMIN_REVIEWER_EMAILS`, optional `ADMIN_USER_IDS`); remove test records; keep owner-private until authorized to change audience.
 - [ ] Independent accessibility audit, external-document review, security review and slow-device performance checks.
 - [ ] Recheck official outbound links; source availability can change.
 - [ ] Only after approval, set public audience/authorized domain and deliberately replace prototype noindex controls.

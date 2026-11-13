@@ -3,8 +3,9 @@
 ## Executed checks
 
 - TypeScript: `npm run typecheck` passed.
-- Evidence/media checks: `npm run check:content` passed (44 evidence records, five image/identity assets, real Dhar polygon). The state emblem is an official identity reference awaiting institutional use authorization; it is not labelled as an open-licence photograph.
-- Framework production build passed; final private deployment status is recorded by the Sites tool result.
+- Evidence/media checks: `npm run check:content` passed (44 evidence records, six licensed assets, real Dhar polygon). The state emblem is an official identity reference awaiting institutional use authorization; it is not labelled as an open-licence photograph.
+- Historical framework production build passed on the previous Sites runtime; it is superseded by the Netlify migration re-run below.
+- Netlify migration re-run (13 November 2026): `npm run typecheck`, `npm run check:content`, `npm test` (18 tests) and `npm run build` passed with the standard Next.js build. Local Next server checks returned `/` → `/hi/`, rendered Hindi and English pages, returned 405 for public bid GET, 403 for anonymous review and 400/403 for invalid/cross-origin bid submissions. A valid bid submission returned 503 without `NETLIFY_DB_URL`, as expected for the unlinked local runtime. Advertising persistence calls and review audit behavior are covered by repository tests; a live Netlify Database integration run requires a linked database branch.
 - Local HTTP crawl: 101 page/resource URLs checked, zero non-200 failures. Detailed output: `docs/route-check-results.json`.
 - External links: 36 attempted; 31 initially returned 200. Five older official links failed due to a PDF 404, DNS, TLS certificate/legacy renegotiation or timeout. Kept legacy failures in `docs/legacy-link-failures.json` and final results in `docs/external-link-results.json`. No TLS checks were bypassed. Replaced public legacy links with current HTTP-200 NREGA, PMAY-G and LokOS portals and working district/ministry reference pages. Research notes preserve the history.
 
@@ -19,7 +20,7 @@
 - Dismissible advertising popup appeared; close/continue worked.
 - Required form submission with missing name produced browser validation.
 - A clearly labelled synthetic test bid returned `BID-4A294A49` with pending review status.
-- Anonymous admin view showed only the sign-in requirement; local starter mock sign-in opened the private review queue.
+- Anonymous admin view showed only the sign-in requirement. That earlier local mock sign-in path has since been removed; reviewer access now uses Netlify Identity.
 - Qualify/approve saved the test decision and published a labelled test advertisement on the homepage.
 - Personal phone and personal submitter name were absent from public homepage text; only approved business name/message displayed.
 - Map zoom reached scale 1.25; native block selector offered all 13 development blocks.

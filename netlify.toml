@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Netlify's supported Next.js integration (OpenNext adapter) is detected
+# automatically for Next.js projects. Do not replace it with a static export:
+# the advertising API routes and authenticated review page require server
+# rendering and Functions.

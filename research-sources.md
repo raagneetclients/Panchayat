@@ -42,7 +42,7 @@ Current president and approved representatives; exact office address, coordinate
 
 ## Technical references
 
-Read https://nextjs.org/docs/app/guides/static-exports and GIGW guidance at https://guidelines.india.gov.in/. Added persistent advertising bids at the user’s request, so final architecture uses Next App Router conventions on the supplied Vinext/Cloudflare Sites runtime, with D1, rather than a static export. Authenticated reviewer allowlisting is required; no public officer or citizen login is fabricated.
+Read https://nextjs.org/docs/app/guides/static-exports and GIGW guidance at https://guidelines.india.gov.in/. Added persistent advertising bids at the user’s request, so the architecture uses standard Next.js App Router, Netlify Functions and Netlify Database (PostgreSQL/Drizzle), rather than a static export. Reviewer access uses Netlify Identity allowlisting; no public officer or citizen login is fabricated.
 
 ## Structured registers
 
