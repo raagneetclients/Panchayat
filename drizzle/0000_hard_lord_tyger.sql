@@ -1,4 +1,4 @@
-CREATE TABLE `advertising_bids` (
+CREATE TABLE IF NOT EXISTS `advertising_bids` (
 	`id` text PRIMARY KEY NOT NULL,
 	`name` text NOT NULL,
 	`phone` text NOT NULL,
@@ -14,9 +14,9 @@ CREATE TABLE `advertising_bids` (
 	`review_reason` text
 );
 --> statement-breakpoint
-CREATE INDEX `bid_status_idx` ON `advertising_bids` (`status`);--> statement-breakpoint
-CREATE INDEX `bid_submitter_idx` ON `advertising_bids` (`submitter_hash`);--> statement-breakpoint
-CREATE TABLE `bid_revisions` (
+CREATE INDEX IF NOT EXISTS `bid_status_idx` ON `advertising_bids` (`status`);--> statement-breakpoint
+CREATE INDEX IF NOT EXISTS `bid_submitter_idx` ON `advertising_bids` (`submitter_hash`);--> statement-breakpoint
+CREATE TABLE IF NOT EXISTS `bid_revisions` (
 	`id` text PRIMARY KEY NOT NULL,
 	`bid_id` text NOT NULL,
 	`actor` text NOT NULL,
