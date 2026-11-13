@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="container section"><span className="eyebrow">404</span><h1>यह पृष्ठ नहीं मिला / Page not found</h1><p>पता जाँचें या मुख्य पृष्ठ से अपनी जानकारी खोजें।</p><a className="button" href="/hi/">मुख्य पृष्ठ / Home →</a></main>}

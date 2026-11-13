@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+*.tsbuildinfo
+.env*
+.openai/*.local.*
+
+dist
+.wrangler
+.vinext
+.sites-runtime
+.dev.vars*
+outputs

@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://nrlm.gov.in/",
+    "failure": "TLS hostname mismatch"
+  },
+  {
+    "url": "https://pmayg.nic.in/",
+    "failure": "DNS resolution failure"
+  },
+  {
+    "url": "https://pmgsy.nic.in/",
+    "failure": "Timeout"
+  },
+  {
+    "url": "https://rti.mp.gov.in/",
+    "failure": "Unsafe legacy TLS renegotiation disabled"
+  },
+  {
+    "url": "https://rural.gov.in/sites/default/files/MGNREGA_FAQ_ENGLISH.pdf",
+    "failure": "HTTP 404"
+  }
+]

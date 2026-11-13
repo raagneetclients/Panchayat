@@ -1,0 +1,5 @@
+import { sqliteTable, text, integer, index } from 'drizzle-orm/sqlite-core';
+export const advertisingBids = sqliteTable('advertising_bids',{
+ id:text('id').primaryKey(),name:text('name').notNull(),phone:text('phone').notNull(),business:text('business').notNull(),amountPaise:integer('amount_paise').notNull(),reason:text('reason').notNull(),status:text('status').notNull().default('pending'),consentAt:text('consent_at').notNull(),createdAt:text('created_at').notNull(),submitterHash:text('submitter_hash').notNull(),reviewedAt:text('reviewed_at'),reviewedBy:text('reviewed_by'),reviewReason:text('review_reason')
+},t=>[index('bid_status_idx').on(t.status),index('bid_submitter_idx').on(t.submitterHash)]);
+export const bidRevisions = sqliteTable('bid_revisions',{id:text('id').primaryKey(),bidId:text('bid_id').notNull(),actor:text('actor').notNull(),previousStatus:text('previous_status').notNull(),status:text('status').notNull(),reason:text('reason').notNull(),createdAt:text('created_at').notNull()});

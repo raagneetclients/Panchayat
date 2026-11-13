@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">हरी फसल और खेत का चित्र</title>
+  <desc id="desc">सुबह की रोशनी में लहराते खेत और उगता हुआ पौधा</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dceecf"/>
+      <stop offset="1" stop-color="#f7efcf"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ab76f"/>
+      <stop offset="1" stop-color="#385e3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)"/>
+  <circle cx="635" cy="108" r="55" fill="#e8bc63" opacity=".85"/>
+  <path d="M0 265Q142 195 286 248t266-5q117-54 248-6v126H0Z" fill="#7d9b69"/>
+  <path d="M0 303q161-85 310-21t256-9q122-63 234-25v131H0Z" fill="#55794e"/>
+  <path d="M0 342q159-53 306 10t267-17q122-77 227-43v228H0Z" fill="url(#field)"/>
+  <path d="M0 408q160-65 325 24t289-28q92-50 186-55" fill="none" stroke="#c1cd82" stroke-width="8" opacity=".7"/>
+  <path d="M0 468q174-76 343 28t292-24q79-38 165-48" fill="none" stroke="#c1cd82" stroke-width="7" opacity=".55"/>
+  <g fill="none" stroke="#d8e5a0" stroke-linecap="round" opacity=".9">
+    <path d="M92 520q28-130 8-198m8 95q-38-35-48-68m45 48q32-37 47-70" stroke-width="8"/>
+    <path d="M182 520q22-103 5-158m5 79q-30-28-39-52m39 39q26-30 37-57" stroke-width="6"/>
+    <path d="M705 520q-25-118-5-181m-8 90q38-34 50-67m-45 46q-31-34-44-64" stroke-width="8"/>
+    <path d="M613 520q-19-92-3-144m-4 71q28-26 36-48m-35 36q-23-26-33-50" stroke-width="6"/>
+  </g>
+  <path d="M390 520q8-130 0-205m0 105q-54-47-72-91m72 64q48-54 66-98" fill="none" stroke="#315b39" stroke-width="12" stroke-linecap="round"/>
+  <path d="M391 428q-61-43-99-28 31 47 99 48m0-61q41-62 92-58-19 64-92 78" fill="#8fad62" stroke="#315b39" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M391 377q-14-54 10-83 33 34-10 83" fill="#aac477" stroke="#315b39" stroke-width="5"/>
+</svg>

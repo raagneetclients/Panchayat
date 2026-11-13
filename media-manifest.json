@@ -1,0 +1,85 @@
+[
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JahazMahal.jpg",
+    "description": "Jahaz Mahal, Mandu",
+    "photographerAgency": "Aamin",
+    "licensingStatus": "CC BY-SA 4.0",
+    "creditLine": "Aamin / Wikimedia Commons / CC BY-SA 4.0",
+    "localFiles": [
+      "public/images/mandu-640.webp",
+      "public/images/mandu-1440.webp"
+    ],
+    "modifications": "Resized and WebP conversion; CSS crops in page display",
+    "usageApproval": "Open licence permits reuse with attribution; official site placement approval pending",
+    "verifiedOn": "2026-11-06"
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhar_Fort,_Dhar,_Madhya_Pradesh.jpg",
+    "description": "Dhar Fort",
+    "photographerAgency": "Uchcharia",
+    "licensingStatus": "CC BY-SA 3.0",
+    "creditLine": "Uchcharia / Wikimedia Commons / CC BY-SA 3.0",
+    "localFiles": [
+      "public/images/dhar-fort-640.webp",
+      "public/images/dhar-fort-1440.webp"
+    ],
+    "modifications": "Resized and WebP conversion; CSS crops in page display",
+    "usageApproval": "Open licence permits reuse with attribution; official site placement approval pending",
+    "verifiedOn": "2026-11-06"
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhar_from_fort.jpg",
+    "description": "Dhar viewed from the fort",
+    "photographerAgency": "Zippymarmalade",
+    "licensingStatus": "Public domain",
+    "creditLine": "Zippymarmalade / Wikimedia Commons / Public domain",
+    "localFiles": [
+      "public/images/dhar-view-640.webp",
+      "public/images/dhar-view-1440.webp"
+    ],
+    "modifications": "Resized and WebP conversion; CSS crops in page display",
+    "usageApproval": "Open licence permits reuse with attribution; official site placement approval pending",
+    "verifiedOn": "2026-11-06"
+  },
+  {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr._Mohan_Yadav_in_New_Delhi.jpg",
+    "description": "Dr. Mohan Yadav in New Delhi, 30 August 2024",
+    "photographerAgency": "Ministry of Defence / PIB",
+    "licensingStatus": "GODL-India",
+    "creditLine": "Ministry of Defence / PIB / Wikimedia Commons / GODL-India",
+    "localFiles": [
+      "public/images/cm-640.webp",
+      "public/images/cm-1440.webp"
+    ],
+    "modifications": "Resized and WebP conversion; CSS crops in page display",
+    "usageApproval": "Open licence permits reuse with attribution; official site placement approval pending",
+    "verifiedOn": "2026-11-06"
+  },
+  {
+    "sourceUrl": "https://epco.mp.gov.in/assets/images/logo.png",
+    "description": "Original Madhya Pradesh state emblem",
+    "photographerAgency": "Government of Madhya Pradesh / EPCO",
+    "licensingStatus": "Official identity asset; no general reuse licence asserted",
+    "creditLine": "Government of Madhya Pradesh; official EPCO source",
+    "localFiles": [
+      "public/images/madhya-pradesh-logo.png"
+    ],
+    "modifications": "None; original proportions and colours",
+    "usageApproval": "User requested prototype reference; institutional publication authorization pending",
+    "verifiedOn": "2026-11-06"
+  },
+  {
+    "sourceUrl": "Original project asset",
+    "description": "Realistic agricultural field banner photograph for the fictional Hindi pesticide-category demo ad",
+    "photographerAgency": "Created for this project",
+    "licensingStatus": "Original project prototype visual asset",
+    "creditLine": "Commercial banner asset created for the Dhar Panchayat prototype",
+    "localFiles": [
+      "public/images/khet-saathi-banner.webp",
+      "public/images/fasal-suraksha-banner.svg"
+    ],
+    "modifications": "N/A",
+    "usageApproval": "Prototype demo only; does not depict or endorse a real product",
+    "verifiedOn": "2026-11-13"
+  }
+]
